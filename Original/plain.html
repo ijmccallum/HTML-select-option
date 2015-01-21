@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Select option base</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body style="background:#eee">
+
+    <!-- ie9+ -->
+
+      <section>
+        <select class="cs-select">
+          <option value="" disabled selected>Preferred contact method</option>
+          <option value="email">E-Mail</option>
+          <option value="twitter">Twitter</option>
+          <option value="linkedin">LinkedIn</option>
+        </select>
+      </section>
+
+    <script src="js/classie.js"></script>
+    <script src="js/selectFx.js"></script>
+    <script>
+      (function() {
+        [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {
+          new SelectFx(el);
+        } );
+      })();
+    </script>
+  </body>
+</html>

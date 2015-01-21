@@ -2,15 +2,15 @@
 <html lang="en">
   <head>
     <title>Select option base</title>
+    <!-- not required but it's good to have: http://necolas.github.io/normalize.css/ -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <!-- specific css for the select option -->
     <link rel="stylesheet" type="text/css" href="css/cs-select.css" />
     <!--[if IE]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body style="background:#eee">
-
-    <!-- ie9+ -->
 
       <section>
         <select class="cs-select">
@@ -21,8 +21,11 @@
         </select>
       </section>
 
+    <!-- classie.js: tiny library to add/remove css classes: http://callmenick.com/2014/03/09/add-remove-and-check-classes/ -->
     <script src="js/classie.js"></script>
+    <!-- specific js for the select to work -->
     <script src="js/selectFx.js"></script>
+    <!-- Make the select work properly! -->
     <script>
       (function() {
         [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {

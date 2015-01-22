@@ -5,6 +5,20 @@ to be dropped into a web form that needs some styling (so we don't have to fight
 
 ---  
 
-##Original: ie9+
-Paired down version of [Codrops](https://github.com/codrops/SelectInspiration) Select Inspiration.
-I've removed all the fancy bits to get down to a skeleton that can be used for future projects.
+##[Codrops](https://github.com/codrops/SelectInspiration)
+
+ie9+
+374kb  
+
+---
+
+##cssReset:
+
+1.6kb
+
+---
+
+##[Select2](https://select2.github.io/examples.html)  
+A jQuery plugin
+
+321kb

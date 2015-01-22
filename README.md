@@ -5,20 +5,15 @@ to be dropped into a web form that needs some styling (so we don't have to fight
 
 ---  
 
-##[Codrops](https://github.com/codrops/SelectInspiration)
+##Select only
 
-ie9+
-374kb  
+|               | Browser support  | Responsive  | min.size |
+| ------------- |:----------------:|:-----------:|:--------:|
+| CoDrops       | ie9+             | Yes         | ?        |
+| Select2       | ?                | Yes         | ?        |
+| cssReset      | ?                | Yes?        | ?        |
 
----
-
-##cssReset:
-
-1.6kb
 
 ---
 
-##[Select2](https://select2.github.io/examples.html)  
-A jQuery plugin
-
-321kb
+##Full form

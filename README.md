@@ -10,8 +10,8 @@ Have a skim thruogh [this css-tricks article](http://css-tricks.com/dropdown-def
 |               | Responsive  | min.size | Solution*   |
 | ------------- |:-----------:|:--------:|:-----------:|
 | Default       | Yes         | 0        | n/a         |
+| Selectize     | Yes         | 56kb     | Replacement |
 | Select2       | Yes         | ?        | Replacement |
-| Selectize     | Yes         | ?        | Replacement |
 | CoDrops       | Yes         | ?        | Replacement |
 | CoDrops2      | ?           | ?        | Custom      |
 | cssReset      | Yes?        | ?        | Original    |
@@ -28,22 +28,22 @@ Solution*
 |               | IE11     | IE8      | Chrome(40) | IE9      | FireFox(34) |
 | ------------- |:--------:|:--------:|:----------:|:--------:|:-----------:|
 | Default       | Yes      | Yes      | Yes        | Yes      | Yes         |
+| Selectize     | Yes      | Yes      | Yes        | Yes      | Yes         |
 | Select2       | Yes      | Yes      | Yes        | Yes      | Yes         |
-| Selectize     |          |          |            |          |             |
 | CoDrops       | Yes      | NO       | Yes        | Yes      | Yes         |
 | CoDrops2      | Yes      | NO       | Yes        | Yes      | Yes         |
 | cssReset      |          |          |            |          |             |
 
 So, if you're thinking of supporting all those folks still running on Windows XP
-(and therefore stuck with ie8), you're looking at Select2!  
+(and therefore stuck with ie8), you're looking at Selectize!  
 
 ####Mobile Browser support by [market share](http://www.netmarketshare.com/browser-market-share.aspx?qprid=0&qpcustomd=1)
 
 |               | Safari   | Chrome   | Android    | Opera mini  |
 | ------------- |:--------:|:--------:|:----------:|:-----------:|
 | Default       |          |          |            |             |
-| Select2       |          |          |            |             |
 | Selectize     |          |          |            |             |
+| Select2       |          |          |            |             |
 | CoDrops       |          |          |            |             |
 | CoDrops2      |          |          |            |             |
 | cssReset      |          |          |            |             |

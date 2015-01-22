@@ -86,7 +86,10 @@
   <script>
   $(function(){
     // turn the element to select2 select style
-    $('#select2').select2();
+    $('#select2').select2({
+      minimumResultsForSearch: -1
+    });
+    //minimumResultsForSearch hides the search box
   });
   </script>
 </body>

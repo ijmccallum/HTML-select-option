@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CoDrops 2</title>
+        <!-- not required but it's good to have: http://necolas.github.io/normalize.css/ -->
+        <link rel="stylesheet" type="text/css" href="../normalize.css" />
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+    </head>
+    <body style="background:#eee">
+
+				<form style="background: #d3eaf4; padding: 10px; max-width: 500px;">
+					<div id="dd" class="wrapper-dropdown-2" tabindex="1">Sign in with
+						<ul class="dropdown">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Github</a></li>
+							<li><a href="#">Facebook</a></li>
+						</ul>
+					</div>
+				</form>
+
+		<!-- jQuery if needed -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript">
+
+			function DropDown(el) {
+				this.dd = el;
+				this.initEvents();
+			}
+			DropDown.prototype = {
+				initEvents : function() {
+					var obj = this;
+
+					obj.dd.on('click', function(event){
+						$(this).toggleClass('active');
+						event.stopPropagation();
+					});
+				}
+			}
+
+			$(function() {
+
+				var dd = new DropDown( $('#dd') );
+
+				$(document).click(function() {
+					// all dropdowns
+					$('.wrapper-dropdown-2').removeClass('active');
+				});
+
+			});
+
+		</script>
+    </body>
+</html>
